@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+body { 
+  font-family: sans-serif;
+  background: #55c7f1bb; 
+  padding: 20px; 
+}
+.navbar{
+ color:rgba(3, 15, 45, 0.822);
+}
+.inner{
+  width:fit-content;
+  height: fit-content;
+  padding: 5px;
+  border:2px solid rgb(0, 58, 128);
+}
+body h3{
+  color:rgb(42, 8, 107);
+}
+body input{
+  color:blueviolet;
+  background-color: aquamarine;
+  border:1px solid green;
+ }
+#file{
+  color:blue;
+}
+button{
+  background-color: rgb(30, 173, 126);
+  border:1px solid green;
+  border-radius: 5px;
+  padding: 5px;
+  padding:0.4rem ;
+  color:white;
+  font-size: 0.9rem;
+}
+canvas {
+  border: 1px solid #ccc;
+  margin-top: 10px; 
+  display: block;
+}
+#loadingBar {
+  display: none;
+  width: 100%;
+  background-color: #ddd;
+  height: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#progress {
+  width: 0%;
+  height: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  transition: width 0.2s ease;
+}
+label, input, button {
+  display: block;
+  margin-top: 15px;
+}
